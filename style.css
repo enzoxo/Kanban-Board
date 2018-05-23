@@ -34,7 +34,7 @@ li{
 
 .column-title {
     color: white;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.8);
     border-radius: 10px;
     height: 40px;
     
@@ -49,11 +49,11 @@ li{
     border: 0px;
     margin-bottom: 10px;
     min-height: 100px;
-    color: yellow;
+    background-color: #E2E4E6;
 }
 
 .column{
-    background-color: grey;
+    background-color: #4BBF6B;
     padding: 20px;
     border-radius: 15px;
     flex: 1;
