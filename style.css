@@ -1,0 +1,68 @@
+.board{
+    display: flex;
+    flex-direction: column;
+}
+li{
+    list-style-type: none;
+}
+
+.board h1{
+    text-align: center;    
+}
+.create-column{
+    max-width: 200px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.column-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.column-card-list{
+    margin-top: 10px;
+    min-height: 220px;
+    padding-bottom: 70px;
+}
+
+.column-title,
+.card-description {
+    text-align: center;
+}
+
+.column-title {
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    height: 40px;
+    
+}
+
+ 
+.card-description {
+    padding: 5px;
+}
+
+.card{
+    border: 0px;
+    margin-bottom: 10px;
+    min-height: 100px;
+    color: yellow;
+}
+
+.column{
+    background-color: grey;
+    padding: 20px;
+    border-radius: 15px;
+    flex: 1;
+    min-width: 20%;
+    max-width: 50%;
+    margin: 50px 20px;
+}
+
+.btn-delete{
+    max-height: 30px;
+    border-radius: 10px;
+}
